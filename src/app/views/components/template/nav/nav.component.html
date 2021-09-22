@@ -12,9 +12,11 @@
             </a>
             <a mat-list-item [matMenuTriggerFor]="menu">                
                 <mat-menu #menu="matMenu">
-                    <a routerLink="os" mat-menu-item>Abertas ou Em Andamento</a>
-                    <a routerLink="os/closed" mat-menu-item>Encerradas
-                        
+                    <a routerLink="os" mat-menu-item>
+                        <i class="material-icons">layers</i>Abertas ou Em Andamento
+                    </a>
+                    <a routerLink="os/closed" mat-menu-item>
+                        <i class="material-icons">layers_clear</i>Encerradas
                     </a>
                 </mat-menu>
                 <i class="material-icons">person_pin</i>Ordens de Serviço
